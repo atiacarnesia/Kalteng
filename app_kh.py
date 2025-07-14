@@ -78,8 +78,8 @@ if st.sidebar.button("🔎 Tampilkan Visualisasi"):
         st.stop()
 
     # Wilayah Kalimantan Tengah diperluas
-    lat_min, lat_max = -3.5, 3.0  # Latitude untuk Kalimantan Tengah
-    lon_min, lon_max = 113.0, 116.5  # Longitude untuk Kalimantan Tengah
+    lat_min, lat_max = -0.5, -3.0  # Latitude untuk Kalimantan Tengah
+    lon_min, lon_max = 111.0, 116.5  # Longitude untuk Kalimantan Tengah
     var = var.sel(lat=slice(lat_min, lat_max), lon=slice(lon_min, lon_max))
 
     if is_vector:
