@@ -126,7 +126,7 @@ if st.sidebar.button("🔎 Tampilkan Visualisasi"):
     # Titik Observasi Tambahan (Contoh titik lainnya)
     lon_obs, lat_obs = 114.897396,  -1.669177
     ax.plot(lon_obs, lat_obs, marker='^', color='blue', markersize=6, transform=ccrs.PlateCarree())
-    ax.text(lon_obs + 0.2, lat_obs - 0.2, "Obs Point", fontsize=9, fontweight='bold', color='blue',
+    ax.text(lon_obs + 0.2, lat_obs - 0.2, "Sanggu Barito Selatan", fontsize=9, fontweight='bold', color='blue',
             transform=ccrs.PlateCarree(), bbox=dict(facecolor='white', edgecolor='blue', boxstyle='round,pad=0.2'))
 
     st.pyplot(fig)
